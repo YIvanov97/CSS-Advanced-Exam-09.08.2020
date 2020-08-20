@@ -1,0 +1,235 @@
+@media (min-width: 376px) {
+    .header--menuIcon {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 375px) {
+    body {
+        width: 375px
+    }
+
+    .header--logoSide {
+      margin-left: 0px !important;
+    }
+    
+    .header--buttons, .header--searchIcon {
+      display: none;
+    }
+  
+    .header--menuIcon:hover{
+      cursor: pointer;
+    }
+  
+    .header__buttonsSide {
+      margin-right: 20px !important;
+    }
+
+    .pageHeader {
+        width: auto !important;
+    }
+
+    .main--middleCard {
+        flex-flow: column;
+        height: auto;
+
+        .midCard--joinBtn {
+            margin: 0;
+            margin-top: 20px;
+        }
+
+        .mainDotted-line ul {
+            display: flex;
+            flex-direction: row;
+            margin-right: 40px;
+            
+            li {
+                margin-left: 13px;
+                margin-right: 13px;
+                background: white !important;
+            }
+
+            .whiteBottom {
+                border-top: none;
+                border-left: 1px solid black;
+            }
+
+            .blueTop {
+                border-bottom: none;
+                border-right: 1px solid black;
+            }
+        }
+
+        .midCard--info {
+            flex-flow: column;
+            
+            div {
+                margin: 0 !important;
+                margin-left: 20px !important;
+            }
+        }
+    }
+
+    .main--about {
+        margin: 0;
+
+        .about--textVideo {
+            flex-flow: column;
+
+            .about--text {
+                margin: 0;
+            }
+
+            .about--video {
+                width: 370px !important;
+
+                .about--videoImg {
+                    width: 370px;
+                }
+            }
+        }
+    }
+
+    .about--for {
+        flex-flow: column;
+
+        .first__paragraph-info {
+            margin: 0;
+        }
+
+        .bottomDotted-line ul {
+            display: flex;
+            flex-direction: row;
+            flex-flow: row;
+            width: 300px;
+            margin-right: 40px;
+            
+            li {
+                margin-left: 8px;
+                margin-right: 8px;
+            }
+        }
+
+        .second__paragraph {
+            display: none;
+        }
+
+        .third--paragraph {
+            display: block
+        }
+    }
+
+    .main--program {
+        display: flex;
+        flex-flow: column;
+        height: auto;
+        width: auto;
+
+        .program--info {
+            margin-left: 30px;
+        }
+
+        .program--main {
+            margin: 0 !important;
+            display: block;
+            width: 300px !important;
+
+            .program--select {
+                display: block;
+                width: 300px !important;
+            }
+        }
+
+        .program--img {
+            display: none;
+        }
+    }
+
+    .main--moreInfo {
+        display: flex;
+        flex-flow: column;
+        margin: 0;
+        width: 300px !important;
+        
+        .moreInfo--firstArticle {
+            display: none;
+        }
+
+
+        .main--when--about {
+            display: flex;
+            flex-flow: column;
+            margin: 0;
+            
+
+            .bottomDotted-list {
+                width: 300px;
+                margin-left: 8px;
+            } 
+            
+            ul {
+                display: flex;
+                flex-flow: row;
+
+                li {
+                    margin-left: 4px;
+                    margin-right: 4px;
+                }
+            }
+        
+            .main--whenInfo, .main--moreInfoBottom {
+                display: flex;
+                flex-flow: column;
+                margin: 0;
+                justify-content: center;
+                width: 100%;
+
+                .whenInfo--header, .moreInfoBottom--header {
+                    width: 100%;
+                    height: auto;
+
+                    .whenInfo--header--icon, .moreInfoBottom--header--icon {
+                        margin-left: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+    footer {
+        margin: 0 !important;
+        
+    }
+
+    .bottom--menu {
+        display: flex;
+        flex-flow: column;
+        flex-wrap: wrap;
+        height: 503px;
+        background: #565656;
+        justify-content: space-around;
+        margin: 0;
+
+        img {
+            display: none;
+        }
+
+        section {
+            padding: 0;
+            margin: 0;
+
+            .noHeader {
+                padding: 0;
+                margin: 0;
+            }
+        }
+
+        .bottom--fourthMenu {
+            margin-bottom: 25px
+        }
+
+        .bottom--fourthMenu, .bottom--fifthMenu {
+            width: 140px;
+        }
+    }
+}

@@ -1,0 +1,151 @@
+@media (min-width: 376px) {
+    .header--menuIcon {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 375px) {
+    body {
+        width: 375px;
+    }
+
+    .header--logoSide {
+      margin-left: 0px !important;
+    }
+    
+    .header--buttons, .header--searchIcon {
+      display: none;
+    }
+  
+    .header--menuIcon:hover{
+      cursor: pointer;
+    }
+  
+    .header__buttonsSide {
+      margin-right: 20px !important;
+    }
+
+    .pageHeader {
+        width: auto !important;
+    }
+
+
+    .main--firstSection p {
+        width: auto !important;
+        margin: 10px;
+    }
+
+    .teachers--firstPart {
+        flex-flow: column;
+
+        .teachers--firstPart--divOne, .teachers--firstPart--divTwo {
+            flex-flow: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 80px;
+
+            img {
+                margin: 0;
+            }
+
+            h2, .teacher--about {
+                text-align: center;
+            }
+
+            p {
+                width: 300px;
+            }
+        }
+    }
+
+    .mainDotted--line {
+        display: flex;
+        margin: 0;
+        
+        ul {
+            display: flex;
+            justify-content: center;
+            width: 370px;
+            flex-flow: row;
+            align-items: center;
+            padding: 0;
+        }
+
+        li { 
+            margin-left: 3px;
+            margin-right: 3px;
+            height: 12px;
+            width: 12px;
+            border-radius: 100%;
+            list-style: none;
+            background: #DFF4F1;
+        }
+    }
+
+    .hiddenInRelative {
+        display: none;
+    }
+
+    .bottom--join {
+        display: flex;
+        flex-flow: column;
+        width: 375px;
+
+        .join--header {
+            width: 90%;
+            text-align: start;
+            margin-left: 15px;
+
+            p {
+                text-align: start;
+                width: 100%;
+            }
+        }
+
+        .input--join {
+            display: flex;
+            flex-flow: column;
+            width: 100%;
+
+            input {
+                width: 88%;
+            }
+
+            a {
+                text-align: center
+            }
+        }
+    }
+
+    .bottom--menu {
+        display: flex;
+        flex-flow: column;
+        flex-wrap: wrap;
+        height: 503px;
+        background: #565656;
+        justify-content: space-around;
+        margin: 0;
+
+        img {
+            display: none;
+        }
+
+        section {
+            padding: 0;
+            margin: 0;
+
+            .noHeader {
+                padding: 0;
+                margin: 0;
+            }
+        }
+
+        .bottom--fourthMenu {
+            margin-bottom: 25px
+        }
+
+        .bottom--fourthMenu, .bottom--fifthMenu {
+            width: 140px;
+        }
+    }
+}

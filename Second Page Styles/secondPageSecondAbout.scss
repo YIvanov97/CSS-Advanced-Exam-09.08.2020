@@ -1,0 +1,17 @@
+.teachers--secondPart, .hiddenInRelative {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    div {
+        margin: 50px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        img:hover {
+            opacity: .5;
+            cursor: pointer;
+        }
+    }
+}

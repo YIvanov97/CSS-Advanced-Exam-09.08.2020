@@ -1,0 +1,123 @@
+@media (min-width: 376px) {
+  .header--menuIcon {
+    display: none;
+  }
+}
+
+@media (max-width: 375px) {
+  body {
+    width: 375px;
+  }
+  .header--logoSide {
+    margin-left: 0px !important;
+  }
+  .header--buttons, .header--searchIcon {
+    display: none;
+  }
+  .header--menuIcon:hover {
+    cursor: pointer;
+  }
+  .header__buttonsSide {
+    margin-right: 20px !important;
+  }
+  .pageHeader {
+    width: auto !important;
+  }
+  .main--firstSection p {
+    width: auto !important;
+    margin: 10px;
+  }
+  .teachers--firstPart {
+    flex-flow: column;
+  }
+  .teachers--firstPart .teachers--firstPart--divOne, .teachers--firstPart .teachers--firstPart--divTwo {
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+  }
+  .teachers--firstPart .teachers--firstPart--divOne img, .teachers--firstPart .teachers--firstPart--divTwo img {
+    margin: 0;
+  }
+  .teachers--firstPart .teachers--firstPart--divOne h2, .teachers--firstPart .teachers--firstPart--divOne .teacher--about, .teachers--firstPart .teachers--firstPart--divTwo h2, .teachers--firstPart .teachers--firstPart--divTwo .teacher--about {
+    text-align: center;
+  }
+  .teachers--firstPart .teachers--firstPart--divOne p, .teachers--firstPart .teachers--firstPart--divTwo p {
+    width: 300px;
+  }
+  .mainDotted--line {
+    display: flex;
+    margin: 0;
+  }
+  .mainDotted--line ul {
+    display: flex;
+    justify-content: center;
+    width: 370px;
+    flex-flow: row;
+    align-items: center;
+    padding: 0;
+  }
+  .mainDotted--line li {
+    margin-left: 3px;
+    margin-right: 3px;
+    height: 12px;
+    width: 12px;
+    border-radius: 100%;
+    list-style: none;
+    background: #DFF4F1;
+  }
+  .hiddenInRelative {
+    display: none;
+  }
+  .bottom--join {
+    display: flex;
+    flex-flow: column;
+    width: 375px;
+  }
+  .bottom--join .join--header {
+    width: 90%;
+    text-align: start;
+    margin-left: 15px;
+  }
+  .bottom--join .join--header p {
+    text-align: start;
+    width: 100%;
+  }
+  .bottom--join .input--join {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+  }
+  .bottom--join .input--join input {
+    width: 88%;
+  }
+  .bottom--join .input--join a {
+    text-align: center;
+  }
+  .bottom--menu {
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    height: 503px;
+    background: #565656;
+    justify-content: space-around;
+    margin: 0;
+  }
+  .bottom--menu img {
+    display: none;
+  }
+  .bottom--menu section {
+    padding: 0;
+    margin: 0;
+  }
+  .bottom--menu section .noHeader {
+    padding: 0;
+    margin: 0;
+  }
+  .bottom--menu .bottom--fourthMenu {
+    margin-bottom: 25px;
+  }
+  .bottom--menu .bottom--fourthMenu, .bottom--menu .bottom--fifthMenu {
+    width: 140px;
+  }
+}

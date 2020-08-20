@@ -1,0 +1,83 @@
+@import "../Styles/pageColors.scss";
+
+.middle--card {
+    display: flex;
+    flex-wrap: wrap;
+    width: 519px;
+    height: 382px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2), 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 0px 2px rgba(0, 0, 0, 0.14);
+    margin-left: 80px;
+    margin-top: 100px;
+    justify-content: center;
+
+    .middle--about {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 30px;
+
+        h2 {
+            color: $light-green-200
+        }
+
+        p {
+            margin: 4px;
+        }
+
+        .middle--address {
+            display: flex;
+            flex-flow: column;
+
+
+            p {
+                width: 190px;
+                height: 90px;
+            }
+        }
+
+        .middle--workTime {
+            display: flex;
+            flex-flow: column;
+            
+            .workDays, .weekends {
+                display: flex;
+                flex-wrap: wrap;
+                margin-bottom: 20px;
+
+                .hours {
+                    color: $orange-100;
+                    font-weight: bold;
+                }
+            }
+        }
+
+        .middle--contacts {
+            display: flex;
+            flex-flow: column;
+        }
+    }
+
+    .lookForUsBtn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid;
+        border-radius: 100px;
+        font-weight: bold;
+        width: 240px;
+        height: 40px;
+        padding: 4px 16px;
+        margin-top: 5px;
+        border-color: $orange-100;
+        color: $orange-100;
+        background: white;
+        text-decoration: none;
+        font-size: 14px;
+
+        &:hover {
+            background: $orange-100;
+            color: white;
+        }
+    }
+}

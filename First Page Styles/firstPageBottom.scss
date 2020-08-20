@@ -1,0 +1,39 @@
+.bottom-img {
+    width: 220px;
+    height: 403px;
+}
+
+.bottom--menu {
+    display: flex;
+    flex-flow: row;
+    background: linear-gradient(180deg, white 25.6%, #565656 10%);
+    justify-content: space-around;
+    padding: 30px;
+    padding-bottom: 0px;
+
+    section {
+        display: flex;
+        flex-flow: column;
+        color: white;
+        padding-top: 80px;
+        margin-top: 50px;
+        
+        .noHeader {
+            padding-top: 60px;
+        }
+
+        ul {
+            padding: 0;
+
+            li {
+                list-style: none;
+                margin-bottom: 10px;
+
+                &:hover {
+                    color: #41BEAD;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

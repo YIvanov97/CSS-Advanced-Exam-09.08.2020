@@ -1,0 +1,73 @@
+.bottom--join {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  background: #66B9F8;
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+
+.bottom--join .join--header {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.bottom--join .join--header h1 {
+  font-size: 36px;
+}
+
+.bottom--join .join--header p {
+  width: 850px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.bottom--join .input--join {
+  display: flex;
+  flex-flow: row;
+}
+
+.bottom--join .input--join ::placeholder {
+  color: white;
+}
+
+.bottom--join .input--join input {
+  width: 228px;
+  height: 52px;
+  font-size: 16px;
+  border: 1px solid white;
+  background: transparent;
+  border-radius: 6px;
+  margin-top: 20px;
+  margin-left: 20px;
+  transition: width 0.5s;
+}
+
+.bottom--join .input--join input:hover {
+  width: 250px;
+}
+
+.bottom--join .input--join .sendBtn {
+  border: none;
+  background-color: #FF9100;
+  box-shadow: 0px 6px 8px -6px black;
+  border-radius: 20px;
+  padding: 10px 22px;
+  margin: 29px 12px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  -webkit-transition: background-color 0.5s ease-out;
+  -moz-transition: background-color 0.5s ease-out;
+  -o-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+.bottom--join .input--join .sendBtn:hover {
+  background-color: white;
+  color: #FF9100;
+}

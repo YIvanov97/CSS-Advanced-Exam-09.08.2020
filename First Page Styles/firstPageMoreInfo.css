@@ -1,0 +1,124 @@
+.main--when--about {
+  display: flex;
+  flex-flow: row;
+}
+
+.main--moreInfo {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  padding-bottom: 80px;
+}
+
+.main--moreInfo .moreInfo--firstArticle {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  padding-bottom: 80px;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 100px;
+  align-items: center;
+}
+
+.main--moreInfo .moreInfo--firstArticle .moreInfo__headerInfo {
+  width: 608px;
+  height: 92px;
+  margin-bottom: 60px;
+}
+
+.main--moreInfo .moreInfo--firstArticle .moreInfo__headerInfo .main--moreInfo--header {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.main--moreInfo .moreInfo--firstArticle .moreInfo__headerInfo .main--moreInfo--header img {
+  width: 32px;
+  height: 32px;
+}
+
+.main--moreInfo .moreInfo--firstArticle .moreInfo__headerInfo .main--moreInfo--header h2 {
+  margin-left: 30px;
+  font-size: 30px;
+}
+
+.main--moreInfo .moreInfo--firstArticle .moreInfo__headerInfo p {
+  margin-left: 60px;
+}
+
+.main--moreInfo .moreInfo--firstArticle .moreInfo__img {
+  position: relative;
+}
+
+.main--moreInfo .moreInfo--firstArticle .moreInfo__img p {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.main--moreInfo .bottomDotted-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main--moreInfo .bottomDotted-list li {
+  height: 12px;
+  width: 12px;
+  border-radius: 100%;
+  list-style: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: #FFECB3;
+}
+
+.main--moreInfo .main--whenInfo, .main--moreInfo .main--moreInfoBottom {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  padding-bottom: 80px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.main--moreInfo .main--whenInfo .whenInfo--header, .main--moreInfo .main--whenInfo .moreInfoBottom--header, .main--moreInfo .main--moreInfoBottom .whenInfo--header, .main--moreInfo .main--moreInfoBottom .moreInfoBottom--header {
+  width: 608px;
+  height: 308px;
+}
+
+.main--moreInfo .main--whenInfo .whenInfo--header .whenInfo--header--icon, .main--moreInfo .main--whenInfo .whenInfo--header .moreInfoBottom--header--icon, .main--moreInfo .main--whenInfo .moreInfoBottom--header .whenInfo--header--icon, .main--moreInfo .main--whenInfo .moreInfoBottom--header .moreInfoBottom--header--icon, .main--moreInfo .main--moreInfoBottom .whenInfo--header .whenInfo--header--icon, .main--moreInfo .main--moreInfoBottom .whenInfo--header .moreInfoBottom--header--icon, .main--moreInfo .main--moreInfoBottom .moreInfoBottom--header .whenInfo--header--icon, .main--moreInfo .main--moreInfoBottom .moreInfoBottom--header .moreInfoBottom--header--icon {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.main--moreInfo .main--whenInfo .whenInfo--header .whenInfo--header--icon img, .main--moreInfo .main--whenInfo .whenInfo--header .moreInfoBottom--header--icon img, .main--moreInfo .main--whenInfo .moreInfoBottom--header .whenInfo--header--icon img, .main--moreInfo .main--whenInfo .moreInfoBottom--header .moreInfoBottom--header--icon img, .main--moreInfo .main--moreInfoBottom .whenInfo--header .whenInfo--header--icon img, .main--moreInfo .main--moreInfoBottom .whenInfo--header .moreInfoBottom--header--icon img, .main--moreInfo .main--moreInfoBottom .moreInfoBottom--header .whenInfo--header--icon img, .main--moreInfo .main--moreInfoBottom .moreInfoBottom--header .moreInfoBottom--header--icon img {
+  width: 32px;
+  height: 32px;
+}
+
+.main--moreInfo .main--whenInfo .whenInfo--header .whenInfo--header--icon h2, .main--moreInfo .main--whenInfo .whenInfo--header .moreInfoBottom--header--icon h2, .main--moreInfo .main--whenInfo .moreInfoBottom--header .whenInfo--header--icon h2, .main--moreInfo .main--whenInfo .moreInfoBottom--header .moreInfoBottom--header--icon h2, .main--moreInfo .main--moreInfoBottom .whenInfo--header .whenInfo--header--icon h2, .main--moreInfo .main--moreInfoBottom .whenInfo--header .moreInfoBottom--header--icon h2, .main--moreInfo .main--moreInfoBottom .moreInfoBottom--header .whenInfo--header--icon h2, .main--moreInfo .main--moreInfoBottom .moreInfoBottom--header .moreInfoBottom--header--icon h2 {
+  margin-left: 30px;
+  font-size: 30px;
+}
+
+.main--moreInfo .main--whenInfo .whenInfo--header .whenInfo--header--icon img, .main--moreInfo .main--whenInfo .moreInfoBottom--header .whenInfo--header--icon img, .main--moreInfo .main--moreInfoBottom .whenInfo--header .whenInfo--header--icon img, .main--moreInfo .main--moreInfoBottom .moreInfoBottom--header .whenInfo--header--icon img {
+  padding-bottom: 30px;
+}
+
+.main--moreInfo .main--whenInfo .whenInfo--header .whenInfo--header--main, .main--moreInfo .main--whenInfo .whenInfo--header .moreInfoBottom--main, .main--moreInfo .main--whenInfo .moreInfoBottom--header .whenInfo--header--main, .main--moreInfo .main--whenInfo .moreInfoBottom--header .moreInfoBottom--main, .main--moreInfo .main--moreInfoBottom .whenInfo--header .whenInfo--header--main, .main--moreInfo .main--moreInfoBottom .whenInfo--header .moreInfoBottom--main, .main--moreInfo .main--moreInfoBottom .moreInfoBottom--header .whenInfo--header--main, .main--moreInfo .main--moreInfoBottom .moreInfoBottom--header .moreInfoBottom--main {
+  margin-left: 60px;
+}
+
+.main--moreInfo .main--whenInfo .whenInfo--header .whenInfo--header--main .bolded, .main--moreInfo .main--whenInfo .whenInfo--header .moreInfoBottom--main .bolded, .main--moreInfo .main--whenInfo .moreInfoBottom--header .whenInfo--header--main .bolded, .main--moreInfo .main--whenInfo .moreInfoBottom--header .moreInfoBottom--main .bolded, .main--moreInfo .main--moreInfoBottom .whenInfo--header .whenInfo--header--main .bolded, .main--moreInfo .main--moreInfoBottom .whenInfo--header .moreInfoBottom--main .bolded, .main--moreInfo .main--moreInfoBottom .moreInfoBottom--header .whenInfo--header--main .bolded, .main--moreInfo .main--moreInfoBottom .moreInfoBottom--header .moreInfoBottom--main .bolded {
+  font-weight: bold;
+}
+
+.main--moreInfo .main--whenInfo .whenInfo--header .whenInfo--header--main a, .main--moreInfo .main--whenInfo .whenInfo--header .moreInfoBottom--main a, .main--moreInfo .main--whenInfo .moreInfoBottom--header .whenInfo--header--main a, .main--moreInfo .main--whenInfo .moreInfoBottom--header .moreInfoBottom--main a, .main--moreInfo .main--moreInfoBottom .whenInfo--header .whenInfo--header--main a, .main--moreInfo .main--moreInfoBottom .whenInfo--header .moreInfoBottom--main a, .main--moreInfo .main--moreInfoBottom .moreInfoBottom--header .whenInfo--header--main a, .main--moreInfo .main--moreInfoBottom .moreInfoBottom--header .moreInfoBottom--main a {
+  color: #FF7100;
+}

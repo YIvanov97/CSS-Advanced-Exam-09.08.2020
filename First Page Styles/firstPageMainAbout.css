@@ -1,0 +1,44 @@
+.main--about {
+  display: flex;
+  flex-flow: column;
+  padding-left: 60px;
+  padding-right: 60px;
+  background-color: white;
+}
+
+.main--about .about--textVideo {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 80px;
+  padding-top: 100px;
+}
+
+.main--about .about--textVideo .about--text {
+  margin-right: 100px;
+}
+
+.main--about .about--textVideo .about--text p {
+  margin-bottom: 30px;
+}
+
+.main--about .about--textVideo .about--video {
+  display: flex;
+  justify-content: center;
+  width: 440px;
+  height: 248px;
+}
+
+.main--about .about--textVideo .about--video .about--videoImg {
+  position: relative;
+}
+
+.main--about .about--textVideo .about--video .about--playIcon {
+  position: absolute;
+  align-self: center;
+}
+
+.main--about .about--textVideo .about--video .about--playIcon:hover {
+  cursor: pointer;
+}

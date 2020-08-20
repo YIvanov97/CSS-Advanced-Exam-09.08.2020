@@ -1,0 +1,72 @@
+.about--for {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  padding-bottom: 80px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.about--for .third--paragraph {
+  display: none;
+}
+
+.about--for .header--people, .about--for .header--important {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.about--for .header--people img, .about--for .header--important img {
+  width: 32px;
+  height: 32px;
+}
+
+.about--for .header--people h2, .about--for .header--important h2 {
+  margin-left: 30px;
+  font-size: 30px;
+}
+
+.about--for .bottomDotted-line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about--for .bottomDotted-line li {
+  height: 12px;
+  width: 12px;
+  border-radius: 100%;
+  list-style: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: #FFECB3;
+}
+
+.about--for .header--puzzle {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.about--for .header--puzzle img {
+  width: 32px;
+  height: 32px;
+}
+
+.about--for .header--puzzle h2 {
+  width: 488px;
+  margin-left: 30px;
+  font-size: 30px;
+}
+
+.about--for .first__paragraph-info {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.about--for .second__paragraph-info {
+  margin-left: 240px;
+}

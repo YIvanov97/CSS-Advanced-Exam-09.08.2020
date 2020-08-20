@@ -1,0 +1,187 @@
+@media (min-width: 376px) {
+  .header--menuIcon {
+    display: none;
+  }
+}
+
+@media (max-width: 375px) {
+  body {
+    width: 375px;
+  }
+  .header--logoSide {
+    margin-left: 0px !important;
+  }
+  .header--buttons, .header--searchIcon {
+    display: none;
+  }
+  .header--menuIcon:hover {
+    cursor: pointer;
+  }
+  .header__buttonsSide {
+    margin-right: 20px !important;
+  }
+  .pageHeader {
+    width: auto !important;
+  }
+  .main--middleCard {
+    flex-flow: column;
+    height: auto;
+  }
+  .main--middleCard .midCard--joinBtn {
+    margin: 0;
+    margin-top: 20px;
+  }
+  .main--middleCard .mainDotted-line ul {
+    display: flex;
+    flex-direction: row;
+    margin-right: 40px;
+  }
+  .main--middleCard .mainDotted-line ul li {
+    margin-left: 13px;
+    margin-right: 13px;
+    background: white !important;
+  }
+  .main--middleCard .mainDotted-line ul .whiteBottom {
+    border-top: none;
+    border-left: 1px solid black;
+  }
+  .main--middleCard .mainDotted-line ul .blueTop {
+    border-bottom: none;
+    border-right: 1px solid black;
+  }
+  .main--middleCard .midCard--info {
+    flex-flow: column;
+  }
+  .main--middleCard .midCard--info div {
+    margin: 0 !important;
+    margin-left: 20px !important;
+  }
+  .main--about {
+    margin: 0;
+  }
+  .main--about .about--textVideo {
+    flex-flow: column;
+  }
+  .main--about .about--textVideo .about--text {
+    margin: 0;
+  }
+  .main--about .about--textVideo .about--video {
+    width: 370px !important;
+  }
+  .main--about .about--textVideo .about--video .about--videoImg {
+    width: 370px;
+  }
+  .about--for {
+    flex-flow: column;
+  }
+  .about--for .first__paragraph-info {
+    margin: 0;
+  }
+  .about--for .bottomDotted-line ul {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+    width: 300px;
+    margin-right: 40px;
+  }
+  .about--for .bottomDotted-line ul li {
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+  .about--for .second__paragraph {
+    display: none;
+  }
+  .about--for .third--paragraph {
+    display: block;
+  }
+  .main--program {
+    display: flex;
+    flex-flow: column;
+    height: auto;
+    width: auto;
+  }
+  .main--program .program--info {
+    margin-left: 30px;
+  }
+  .main--program .program--main {
+    margin: 0 !important;
+    display: block;
+    width: 300px !important;
+  }
+  .main--program .program--main .program--select {
+    display: block;
+    width: 300px !important;
+  }
+  .main--program .program--img {
+    display: none;
+  }
+  .main--moreInfo {
+    display: flex;
+    flex-flow: column;
+    margin: 0;
+    width: 300px !important;
+  }
+  .main--moreInfo .moreInfo--firstArticle {
+    display: none;
+  }
+  .main--moreInfo .main--when--about {
+    display: flex;
+    flex-flow: column;
+    margin: 0;
+  }
+  .main--moreInfo .main--when--about .bottomDotted-list {
+    width: 300px;
+    margin-left: 8px;
+  }
+  .main--moreInfo .main--when--about ul {
+    display: flex;
+    flex-flow: row;
+  }
+  .main--moreInfo .main--when--about ul li {
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+  .main--moreInfo .main--when--about .main--whenInfo, .main--moreInfo .main--when--about .main--moreInfoBottom {
+    display: flex;
+    flex-flow: column;
+    margin: 0;
+    justify-content: center;
+    width: 100%;
+  }
+  .main--moreInfo .main--when--about .main--whenInfo .whenInfo--header, .main--moreInfo .main--when--about .main--whenInfo .moreInfoBottom--header, .main--moreInfo .main--when--about .main--moreInfoBottom .whenInfo--header, .main--moreInfo .main--when--about .main--moreInfoBottom .moreInfoBottom--header {
+    width: 100%;
+    height: auto;
+  }
+  .main--moreInfo .main--when--about .main--whenInfo .whenInfo--header .whenInfo--header--icon, .main--moreInfo .main--when--about .main--whenInfo .whenInfo--header .moreInfoBottom--header--icon, .main--moreInfo .main--when--about .main--whenInfo .moreInfoBottom--header .whenInfo--header--icon, .main--moreInfo .main--when--about .main--whenInfo .moreInfoBottom--header .moreInfoBottom--header--icon, .main--moreInfo .main--when--about .main--moreInfoBottom .whenInfo--header .whenInfo--header--icon, .main--moreInfo .main--when--about .main--moreInfoBottom .whenInfo--header .moreInfoBottom--header--icon, .main--moreInfo .main--when--about .main--moreInfoBottom .moreInfoBottom--header .whenInfo--header--icon, .main--moreInfo .main--when--about .main--moreInfoBottom .moreInfoBottom--header .moreInfoBottom--header--icon {
+    margin-left: 20px;
+  }
+  footer {
+    margin: 0 !important;
+  }
+  .bottom--menu {
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    height: 503px;
+    background: #565656;
+    justify-content: space-around;
+    margin: 0;
+  }
+  .bottom--menu img {
+    display: none;
+  }
+  .bottom--menu section {
+    padding: 0;
+    margin: 0;
+  }
+  .bottom--menu section .noHeader {
+    padding: 0;
+    margin: 0;
+  }
+  .bottom--menu .bottom--fourthMenu {
+    margin-bottom: 25px;
+  }
+  .bottom--menu .bottom--fourthMenu, .bottom--menu .bottom--fifthMenu {
+    width: 140px;
+  }
+}

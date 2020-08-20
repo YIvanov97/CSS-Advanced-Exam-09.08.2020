@@ -1,0 +1,123 @@
+@import "../Styles/pageColors.scss";
+
+.contactUs {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px;
+
+    h1 {
+        font-size: 30px;
+        color: $light-green-200;
+    }
+
+    .top--inputs {
+        display: flex;
+        flex-flow: row;
+        margin-bottom: 30px;
+
+        input {
+            width: 409px;
+            height: 52px;
+            border-radius: 6px;
+            border: 1px solid #919191;
+            margin-left: 13px;
+            margin-right: 13px; 
+            transition: all 0.5s;
+
+            &:hover {
+                border-radius: 20px;
+                border: 2px solid lightblue;
+            }
+        }
+    }
+
+    .message--input {
+        width: 850px;
+        height: 192px;
+        border-radius: 6px;
+        border: 1px solid #919191;
+        transition: all 0.5s;
+
+        &:hover {
+            border-radius: 20px;
+            border: 2px solid lightblue;
+        }
+    }
+
+    .text-box {
+        display: flex;
+        align-self: flex-start;
+        margin-left: 230px;
+    }
+    
+    .btn-animate:link,
+    .btn-animate:visited {
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 15px 40px;
+        display: flex;
+        border-radius: 100px;
+        transition: all .2s;
+        font-weight: bold;
+        
+    }
+    
+    .btn-animate:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+    
+    .btn-animate:active {
+        transform: translateY(-1px);
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    }
+    
+    .btn-animate {
+        background-color: $orange-100;
+        color: white;
+    }
+    
+    .btn-animate::after {
+        display: inline-block;
+        height: 100%;
+        width: 100%;
+        border-radius: 100px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        transition: all .4s;
+    }
+    
+    .btn-animate::after {
+        background-color: white;
+        color: $orange-100;
+    }
+    
+    .btn-animate:hover::after {
+        transform: scaleX(1.4) scaleY(1.6);
+        opacity: 0;
+    }
+    
+    .btn-animated {
+        animation: moveInBottom 5s ease-out;
+        animation-fill-mode: backwards;
+    }
+    
+    @keyframes moveInBottom {
+        0% {
+            opacity: 0;
+            transform: translateY(30px);
+        }
+    
+        100% {
+            opacity: 1;
+            transform: translateY(0px);
+        }
+    }
+
+
+    
+}

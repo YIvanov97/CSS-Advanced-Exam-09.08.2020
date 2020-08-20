@@ -1,0 +1,80 @@
+.middle--card {
+  display: flex;
+  flex-wrap: wrap;
+  width: 519px;
+  height: 382px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2), 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 0px 2px rgba(0, 0, 0, 0.14);
+  margin-left: 80px;
+  margin-top: 100px;
+  justify-content: center;
+}
+
+.middle--card .middle--about {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 30px;
+}
+
+.middle--card .middle--about h2 {
+  color: #41BEAD;
+}
+
+.middle--card .middle--about p {
+  margin: 4px;
+}
+
+.middle--card .middle--about .middle--address {
+  display: flex;
+  flex-flow: column;
+}
+
+.middle--card .middle--about .middle--address p {
+  width: 190px;
+  height: 90px;
+}
+
+.middle--card .middle--about .middle--workTime {
+  display: flex;
+  flex-flow: column;
+}
+
+.middle--card .middle--about .middle--workTime .workDays, .middle--card .middle--about .middle--workTime .weekends {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.middle--card .middle--about .middle--workTime .workDays .hours, .middle--card .middle--about .middle--workTime .weekends .hours {
+  color: #FF9100;
+  font-weight: bold;
+}
+
+.middle--card .middle--about .middle--contacts {
+  display: flex;
+  flex-flow: column;
+}
+
+.middle--card .lookForUsBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid;
+  border-radius: 100px;
+  font-weight: bold;
+  width: 240px;
+  height: 40px;
+  padding: 4px 16px;
+  margin-top: 5px;
+  border-color: #FF9100;
+  color: #FF9100;
+  background: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.middle--card .lookForUsBtn:hover {
+  background: #FF9100;
+  color: white;
+}

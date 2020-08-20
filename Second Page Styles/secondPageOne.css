@@ -1,0 +1,25 @@
+.main--section {
+  display: flex;
+  flex-direction: column;
+}
+
+.main--section .main--firstSection {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  height: 256px;
+  color: white;
+}
+
+.main--section .main--firstSection h1 {
+  font-size: 36px;
+}
+
+.main--section .main--firstSection p {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 900px;
+  font-size: 16px;
+}

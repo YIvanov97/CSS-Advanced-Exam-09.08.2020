@@ -1,0 +1,76 @@
+.teachers--firstPart {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+}
+
+.teachers--firstPart .teachers--firstPart--divOne, .teachers--firstPart .teachers--firstPart--divTwo {
+  display: flex;
+  flex-flow: row;
+  margin: 60px;
+}
+
+.teachers--firstPart .teachers--firstPart--divOne img, .teachers--firstPart .teachers--firstPart--divTwo img {
+  margin-right: 30px;
+  margin-top: 30px;
+}
+
+.teachers--firstPart .teachers--firstPart--divOne .About--text, .teachers--firstPart .teachers--firstPart--divTwo .About--text {
+  display: flex;
+  flex-flow: column;
+  width: 409px;
+}
+
+.mainDotted--line .bottom--menu {
+  display: flex;
+  flex-flow: column;
+  flex-wrap: wrap;
+  height: 503px;
+  background: #565656;
+  justify-content: space-around;
+  margin: 0;
+}
+
+.mainDotted--line .bottom--menu img {
+  display: none;
+}
+
+.mainDotted--line .bottom--menu section {
+  padding: 0;
+  margin: 0;
+}
+
+.mainDotted--line .bottom--menu section .noHeader {
+  padding: 0;
+  margin: 0;
+}
+
+.mainDotted--line .bottom--menu .bottom--fourthMenu {
+  margin-bottom: 25px;
+}
+
+.mainDotted--line .bottom--menu .bottom--fourthMenu, .mainDotted--line .bottom--menu .bottom--fifthMenu {
+  width: 140px;
+}
+
+.mainDotted--line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.mainDotted--line ul {
+  display: flex;
+  flex-flow: row;
+}
+
+.mainDotted--line li {
+  height: 12px;
+  width: 12px;
+  border-radius: 100%;
+  list-style: none;
+  margin-left: 30px;
+  margin-right: 30px;
+  background: #DFF4F1;
+}

@@ -1,0 +1,125 @@
+.main--when--about {
+    display: flex;
+    flex-flow: row;
+}
+
+.main--moreInfo {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    padding-bottom: 80px;
+    
+
+    .moreInfo--firstArticle {
+        display: flex;
+        flex-flow: row;
+        justify-content: space-between;
+        padding-bottom: 80px;
+        margin-left: 60px;
+        margin-right: 60px;
+        margin-top: 100px;
+        align-items: center;
+
+        .moreInfo__headerInfo {
+            width: 608px;
+            height: 92px;
+            margin-bottom: 60px;
+
+            .main--moreInfo--header {
+                display: flex;
+                flex-flow: row;
+                align-items: center;
+                justify-content: flex-start;
+    
+                img {
+                    width: 32px;
+                    height: 32px;
+                }
+    
+                h2 {
+                    margin-left: 30px;
+                    font-size: 30px;
+                }
+            }
+    
+            p {
+                margin-left: 60px;
+            }
+        }
+
+        .moreInfo__img {
+            position: relative;
+        }
+
+        .moreInfo__img p {
+            position: absolute;
+            text-align: center;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+
+    .bottomDotted-list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        li {
+            height: 12px;
+            width: 12px;
+            border-radius: 100%;
+            list-style: none;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            background: #FFECB3;
+        }
+    }
+
+    .main--whenInfo,  .main--moreInfoBottom{
+        display: flex;
+        flex-flow: row;
+        justify-content: space-between;
+        padding-bottom: 80px;
+        margin-left: 60px;
+        margin-right: 60px;
+
+        .whenInfo--header, .moreInfoBottom--header {
+            width: 608px;
+            height: 308px;
+        
+            .whenInfo--header--icon, .moreInfoBottom--header--icon {
+                display: flex;
+                flex-flow: row;
+                align-items: center;
+                justify-content: flex-start;
+
+                img {
+                    width: 32px;
+                    height: 32px;
+                }
+
+                h2 {
+                    margin-left: 30px;
+                    font-size: 30px;
+                }
+            }
+
+            .whenInfo--header--icon img {
+                padding-bottom: 30px;
+            }
+
+            .whenInfo--header--main, .moreInfoBottom--main{
+                margin-left: 60px;
+
+                .bolded {
+                    font-weight: bold;
+                }
+
+                a {
+                    color: #FF7100;
+                }
+            }
+        }
+    }
+}
